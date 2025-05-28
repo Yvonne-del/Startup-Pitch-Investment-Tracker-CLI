@@ -29,19 +29,18 @@ Insights: Calculate average investor interest and identify top interested invest
 
 # Project Structure
 
-/Investor-tracker
-│
-├── db/
-│   └── seed.py        
-├── lib/
+project-root/
+└── lib/
+    ├── cli.py
+    ├── helpers.py
+    ├── debug.py
     ├── models/
-    |    ├── __init__.py    # SQLAlchemy setup (Base, engine, session)
-│   |    ├── startup.py     # Startup model
-│   |    ├── investors.py   # Investor model
-│   |    └── pitch.py       # Pitch model
-│   ├── cli.py         # Main CLI interface
-│   ├── helpers.py     # Helper functions (session management, calculations)
-│   └── debug.py       # Script to manually test models and relationships
+    │   ├── __init__.py
+    │   ├── startup.py
+    │   ├── investors.py
+    │   └── pitch.py
+    └── db/
+        └── seed.py
 
 
 # Setup Instructions
