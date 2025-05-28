@@ -79,9 +79,7 @@ You will see a menu allowing you to manage startups, investors, pitches, and fun
 Seeding the Database
 To populate the database with sample data for testing:
 
-    python db/seed.py
-        or
-    python -m lib.cli    #if you get an errorwith the first one
+    python -m lib.cli 
 
 This will add:
 
