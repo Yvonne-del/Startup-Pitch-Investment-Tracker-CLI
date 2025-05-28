@@ -1,0 +1,21 @@
+# Startup-Pitch-Investor-Tracker-CLI
+Startup Pitch &amp; Investor Tracker is a command-line application that allows founders to log their startup projects, record pitch meetings with investors, and track investor interest levels. It offers a fast, offline, and organized way to manage fundraising efforts, monitor investor engagement, and ensure no opportunity is missed.
+
+MVP:
+1.  Startup Management
+Add new startups (name, description, funding stage)
+View all startups
+Delete a startup if needed
+
+2. Pitch Handling
+Add a pitch linked to a startup (investor name, date, feedback, interest rating)
+View all pitches for a startup
+Delete a pitch if needed
+
+3.  Investor Records
+Register investor profiles (name, firm, sector focus)
+View all investors
+View all pitches made to a specific investor
+
+4.  Fundraising Insights
+See how many pitches a startup has ma
