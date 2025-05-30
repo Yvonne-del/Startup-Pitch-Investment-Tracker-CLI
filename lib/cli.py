@@ -28,7 +28,7 @@ def manage_startups(session):
         if choice == "1":
             name = input("Enter startup name: ")
             desc = input("Enter description: ")
-            stage = input("Enter funding stage: ")
+            stage = input("Enter funding stage (Pre-seed, Seed, Series A, Series B, Series C+): ")
             Startup.create(session, name, desc, stage)
             print("Startup added!")
         elif choice == "2":
