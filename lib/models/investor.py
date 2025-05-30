@@ -31,7 +31,8 @@ class Investor(Base):
     # find an investor by ID
     @classmethod
     def find_by_id(cls, session, id):
-        return session.query.filter_by(id=id).first()
+        return session.query(cls).filter_by(id=id).first()
+
     
     # delete an investor by ID
     @classmethod
