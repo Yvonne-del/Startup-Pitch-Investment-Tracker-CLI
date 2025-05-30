@@ -9,7 +9,7 @@ class Pitch(Base):
     # columns: id, startup_id, investors_id, date, feedback, interest_rating
     
     id = Column(Integer, primary_key=True)
-    startup_id = Column(Integer, ForeignKey("startups.id"), nullable=False)
+    startup_id = Column(Integer, ForeignKey('startups.id', ondelete='CASCADE'), nullable=False)
     investor_id = Column(Integer, ForeignKey("investors.id"), nullable=False)
     date = Column(Date, nullable=False)
     feedback = Column(String)
