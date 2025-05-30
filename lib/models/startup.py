@@ -13,7 +13,7 @@ class Startup(Base):
     funding_stage = Column(String)
     
     # one to many relationship with the pitch
-    pitches = relationship("Pitch", back_populates="startup")
+    pitches = relationship("Pitch", back_populates="startup", cascade='all, delete-orphan')
     
     # property to count associated pitches
     @property

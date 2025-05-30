@@ -2,8 +2,10 @@ from lib.models.startup import Startup
 from lib.models.pitch import Pitch
 from lib.models.investor import Investor
 
+
 from lib.helpers import get_session, calculate_average_interest, get_most_interested_investors
 from datetime import datetime
+
 
 
 # Main menu
